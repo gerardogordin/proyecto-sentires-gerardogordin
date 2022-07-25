@@ -45,11 +45,13 @@ color: white;
     display: flex;
     list-style: none;
     flex-direction: row;
+    
 
 }
 .menu-nav__enlaces{
     display: flex;
     margin: 10px;
+    
 
 
 }
@@ -83,7 +85,7 @@ width: 100%;
 .estilo-index__texto{
 text-align: center;
 color:rgb(5, 15, 23) ;
-font-size: large;
+font-size:large;
 background-image: url(../imagenes/panza_con_manos.jpg);
 text-transform: uppercase;
 font-weight: bold;
