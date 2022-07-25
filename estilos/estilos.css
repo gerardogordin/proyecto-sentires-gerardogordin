@@ -267,6 +267,7 @@ text-align: center;
         display: flex;
         width: 100%;
         flex-direction: column;
+        width: 100%;
     }
     .estilo-index__texto{
         height: 300px;
@@ -283,6 +284,8 @@ text-align: center;
 
         .estilo-index__imagen{
             display:none
+ 
+
         }
         .estilo-propuestas{
             width:auto;
@@ -451,7 +454,7 @@ grid-template-columns: 100%;
 
 
 .estilo-propuestas__fotos{
- width: 60% ;
+ width: 80% ;
  margin: 0 auto;
 
 }
