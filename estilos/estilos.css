@@ -18,7 +18,7 @@ color: white;
 }
 .main{
     border: 1px solid white;
- 
+    margin-bottom: 60px;
    
 }
 
@@ -45,11 +45,14 @@ color: white;
     display: flex;
     list-style: none;
     flex-direction: row;
+    margin-bottom: 0;
+    
 
 }
 .menu-nav__enlaces{
     display: flex;
     margin: 10px;
+    
 
 
 }
@@ -66,40 +69,42 @@ color: white;
 }
 .estilo-foooter__enlaces{
     padding: 10px;
+
      
-
-
 }
 
 
 .estilo-index{
-display: flex;
 width: 100%;
+padding: 0px;
 
 
 
 }
 
 .estilo-index__texto{
+
 text-align: center;
 color:rgb(5, 15, 23) ;
-font-size: large;
-background-image: url(../imagenes/panza_con_manos.jpg);
+font-size:large;
 text-transform: uppercase;
 font-weight: bold;
-padding-top: 120px;
-background-size: cover;
-
-
+padding-top: 100px;
+object-fit: cover;
+height: 100%;
+overflow: hidden ;
 
 
 
 }
 
-.estilo-index__imagen{
-    display: flex;
-    align-items: center;
 
+
+.estilo-index__imagen{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ overflow: hidden;
 }
 
 .formulario {
@@ -107,23 +112,34 @@ background-size: cover;
     background-image: url(../imagenes/Espacio\ listo\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align:left;
-    padding-bottom: 1px;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: small;
-    height: 500px;
+    text-align: center;
 
 }
-
+::placeholder{
+    color: blueviolet;
+}
 
 .formulario__especifico{
-  margin-left: 469px;
-  margin-right: 493px;
+width: auto;
+height: auto;
 
 
 }
+.textarea{
+    max-width: 0 auto;
+    align-items: center;
 
+}
+
+.textarea1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+   
+
+}
 
 .estilo-propuestas{
 display: grid;
@@ -180,6 +196,7 @@ justify-items: center;
     background-size: cover;
     justify-content: center;
     align-items: center;
+
 
 
 }
@@ -267,26 +284,23 @@ text-align: center;
         display: flex;
         width: 100%;
         flex-direction: column;
-        width: 100%;
     }
     .estilo-index__texto{
         height: 300px;
         color:rgb(5, 15, 23) ;
-        font-size: large;
+        font-size: medium;
         text-transform: uppercase;
         font-weight: bold;
-        padding-top: 40px;
+        padding-top: 0px;
         background-size: cover;
+        line-height: normal;
+    
 
 
 
         }
 
-        .estilo-index__imagen{
-            display:none
  
-
-        }
         .estilo-propuestas{
             width:auto;
             display: grid;
@@ -376,19 +390,30 @@ text-align: center;
 
 @media screen and (max-width: 599px ){
 
+
     .propiedades-header {
     height:180px;
     }
+
     .menu-nav{
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
+        line-height: normal;
+    
+            
+        
+    }
+    .menu-nav{
+        gap: auto;
+        margin-top: 20px;
     }
 
     .estilologo{
         align-items: center;
         justify-content: center;
     }
+
 
     .estilo-index{
         display: flex;
@@ -403,40 +428,38 @@ text-align: center;
         height: 400px;
         color:rgb(5, 15, 23) ;
         font-size: large;
-        text-transform: uppercase;
+        text-transform: none;
         font-weight: bold;
         padding-top: 0px;
         background-size: cover;
+        text-transform: uppercase;
 
 
 
         }
 
-        .estilo-index__imagen{
-            display:none
-
-
-        }
-        .main{
-            border: none;
+   
+.main{
+            margin-bottom: 60px
         }
 
-         .formulario{
+.formulario{
         display: flex;
         height: 450px;
         justify-content:center;
         text-align:center;
         background-image: none;
+        margin-bottom: 1.5rem ;
 
     }
 
-    .formulario__especifico{
+.formulario__especifico{
     text-transform: none;
 
 
     }
 
-    .textarea{
+.textarea{
         height: 230px;
         width: 100%;
 }
@@ -501,7 +524,4 @@ border-radius: 200rem;
     margin: 20px auto;}
 .estilo-experiencias__fotos--12{
     margin: 20px auto;}
-
-
-
 }
