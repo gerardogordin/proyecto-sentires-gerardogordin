@@ -93,14 +93,9 @@ text-align: center;
 color:rgb(5, 15, 23) ;
 font-size:large;
 text-transform: uppercase;
-<<<<<<< HEAD
-font-weight: bold;
-padding-top: 100px;
-=======
 /* font-weight: bold; */
 padding-top: 90px;
  background-size: cover; 
->>>>>>> copia-24-7
 object-fit: cover;
 height: 100%;
 overflow: hidden ;
@@ -317,10 +312,6 @@ text-align: center;
 
         }
 
-<<<<<<< HEAD
- 
-=======
->>>>>>> copia-24-7
         .estilo-propuestas{
             width:auto;
             display: grid;
@@ -417,27 +408,22 @@ text-align: center;
 
     .propiedades-header {
     height:180px;
+    width:auto;
     }
-<<<<<<< HEAD
-
-=======
-    /* .propiedades-header__menu{
-
-    } */
->>>>>>> copia-24-7
-    .menu-nav{
+    .propiedades-header__menu{
+        display: flex;
         flex-direction: column;
+    }
+    .menu-nav{
         justify-content: flex-end;
         align-items: flex-end;
-        line-height: normal;
-    
+        line-height: 10px;
+        margin-top: 20px;
+        flex-direction: column;
             
         
     }
-    .menu-nav{
-        gap: auto;
-        margin-top: 20px;
-    }
+   
 
     .estilologo{
         align-items: center;
@@ -477,21 +463,12 @@ text-align: center;
         }
 
 .formulario{
-<<<<<<< HEAD
-        display: flex;
-        height: 450px;
-        justify-content:center;
-        text-align:center;
-        background-image: none;
-        margin-bottom: 1.5rem ;
-=======
     display: flex;
     height: auto;
     justify-content:center;
     text-align:center;
     background-image: none;
     margin-bottom: 1.5rem ;
->>>>>>> copia-24-7
 
     }
 
@@ -568,8 +545,6 @@ border-radius: 200rem;
     margin: 20px auto;}
 .estilo-experiencias__fotos--12{
     margin: 20px auto;}
-<<<<<<< HEAD
-=======
 
 
 
@@ -583,5 +558,4 @@ border-radius: 200rem;
      .estilo-index__texto{
         padding-top: 20px;
      }
->>>>>>> copia-24-7
 }
