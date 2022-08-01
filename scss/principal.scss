@@ -93,16 +93,12 @@ text-align: center;
 color:rgb(5, 15, 23) ;
 font-size:large;
 text-transform: uppercase;
-<<<<<<< HEAD
-font-weight: bold;
-padding-top: 100px;
-=======
 /* font-weight: bold; */
 padding-top: 90px;
  background-size: cover; 
->>>>>>> copia-24-7
 object-fit: cover;
 height: 100%;
+background-repeat: no-repeat;
 overflow: hidden ;
 
 
@@ -121,7 +117,7 @@ overflow: hidden ;
 
 .formulario {
     display: flex;
-    background-image: url(../imagenes/Espacio\ listo\ 1.jpg);
+    // background-image: url(../imagenes/Espacio\ listo\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: bold;
@@ -134,13 +130,14 @@ overflow: hidden ;
 }
 
 .formulario__especifico{
-width: auto;
+width:  auto;
 height: auto;
 
 
 }
 .textarea{
-    max-width: 0 auto;
+    width: 0 auto;
+    text-align: center;
 
     
 }
@@ -149,7 +146,7 @@ height: auto;
     display: flex;
     text-align: center;
     flex-direction: column;
-   
+       
 
 }
 
@@ -317,10 +314,6 @@ text-align: center;
 
         }
 
-<<<<<<< HEAD
- 
-=======
->>>>>>> copia-24-7
         .estilo-propuestas{
             width:auto;
             display: grid;
@@ -418,13 +411,9 @@ text-align: center;
     .propiedades-header {
     height:180px;
     }
-<<<<<<< HEAD
-
-=======
     /* .propiedades-header__menu{
 
     } */
->>>>>>> copia-24-7
     .menu-nav{
         flex-direction: column;
         justify-content: flex-end;
@@ -472,36 +461,27 @@ text-align: center;
             font-weight: bolder;
         }
    
-.main{
+        .main{
             margin-bottom: 60px
         }
 
 .formulario{
-<<<<<<< HEAD
-        display: flex;
-        height: 450px;
-        justify-content:center;
-        text-align:center;
-        background-image: none;
-        margin-bottom: 1.5rem ;
-=======
     display: flex;
     height: auto;
     justify-content:center;
     text-align:center;
     background-image: none;
     margin-bottom: 1.5rem ;
->>>>>>> copia-24-7
 
     }
 
-.formulario__especifico{
+    .formulario__especifico{
     text-transform: none;
 
 
     }
 
-.textarea{
+    .textarea{
         height: 230px;
         width: 100%;
 }
@@ -568,8 +548,6 @@ border-radius: 200rem;
     margin: 20px auto;}
 .estilo-experiencias__fotos--12{
     margin: 20px auto;}
-<<<<<<< HEAD
-=======
 
 
 
@@ -583,5 +561,4 @@ border-radius: 200rem;
      .estilo-index__texto{
         padding-top: 20px;
      }
->>>>>>> copia-24-7
 }
