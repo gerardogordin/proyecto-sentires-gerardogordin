@@ -93,8 +93,8 @@ text-align: center;
 color:rgb(5, 15, 23) ;
 font-size:large;
 text-transform: uppercase;
-font-weight: bold;
-padding-top: 100px;
+/* font-weight: bold; */
+padding-top: 90px;
  background-size: cover; 
 object-fit: cover;
 height: 100%;
@@ -137,8 +137,8 @@ height: auto;
 }
 .textarea{
     max-width: 0 auto;
-    align-items: center;
 
+    
 }
 
 .textarea1{
@@ -154,10 +154,12 @@ display: grid;
 padding: 1rem;
 gap: 1rem;
 grid-template-columns: repeat(3, 1fr);
+grid-template-rows: auto;
 justify-items: center;
 overflow: hidden;
 border-top: 1px solid white;
 border-bottom: 1px solid white;
+width: 100%;
 
 }
 
@@ -273,7 +275,7 @@ text-align: center;
 
 }
 .quienessomos__titulos{
-        text-transform: uppercase;
+    text-transform: uppercase;
 }
 .quienessomos__titulos--texto{
     text-align: justify;
@@ -297,12 +299,12 @@ text-align: center;
         flex-direction: column;
     }
     .estilo-index__texto{
-        height: 300px;
+        height: 350px;
         color:rgb(5, 15, 23) ;
         font-size: medium;
         text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 0px;
+        font-weight: normal;
+        padding-top: 0;
         background-size: cover;
         line-height: normal;
     
@@ -311,9 +313,6 @@ text-align: center;
 
         }
 
-        /* .estilo-index__imagen{
-            display:none
-        } */
         .estilo-propuestas{
             width:auto;
             display: grid;
@@ -448,15 +447,18 @@ text-align: center;
         color:rgb(5, 15, 23) ;
         font-size: large;
         text-transform: none;
-        font-weight: bold;
+        font-weight:normal ;
         padding-top: 0px;
         background-size: cover;
         text-transform: uppercase;
-
+        line-height:1.5;
+           
 
 
         }
-
+        .titulo_sentires{
+            font-weight: bolder;
+        }
    
         .main{
             margin-bottom: 60px
@@ -548,4 +550,14 @@ border-radius: 200rem;
 
 
 
+}
+@media  (min-width:1024px) and (max-width:1180px){
+ .estilo-propuestas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+     }   
+     .estilo-index__texto{
+        padding-top: 20px;
+     }
 }
