@@ -41,6 +41,23 @@ color: white;
 .estilologo{
     display: flex;
     margin: 1px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes logo {
+    0%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0.5;
+    }
+    
+    100%{
+        opacity: 1;
+    }
 }
 
 .menu-nav {
@@ -68,8 +85,8 @@ transform: scale(1.15);
     justify-content: flex-end;
     margin-right: 30px;
     width: 100%;
-   
-    
+
+
 
 }
 .estilo-foooter__enlaces{
@@ -93,7 +110,6 @@ text-align: center;
 color:rgb(5, 15, 23) ;
 font-size:large;
 text-transform: uppercase;
-/* font-weight: bold; */
 padding-top: 90px;
  background-size: cover; 
 object-fit: cover;
@@ -136,7 +152,7 @@ height: auto;
 }
 .textarea{
     max-width: 0 auto;
-
+    
     
 }
 
@@ -271,14 +287,20 @@ text-align: center;
     border-radius: 100rem;
     overflow: hidden;
     border: 1px solid white;
+    transition: all 1s;
 
 }
+
+.quienessomos__foto:hover{
+    transform: url(../imagenes/playa.jpeg);
+}
+
 .quienessomos__titulos{
     text-transform: uppercase;
 }
-.quienessomos__titulos--texto{
+.quienessomos__texto{
     text-align: justify;
-    padding: 25px;
+    padding: 20px;
 }
 
 
@@ -557,5 +579,68 @@ border-radius: 200rem;
      }   
      .estilo-index__texto{
         padding-top: 20px;
-     }
+    }
+    .estilo-experiencias{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "video video video"
+        "img1 img2 img3"
+        "img4 img5 img6"
+        "img7 img8 img9"
+        "img10 img11 img12";
+       
+    }
+    .estilo-experiencias__video--1{
+        grid-area: video;
+        }
+    
+    .estilo-experiencias__fotos--1{
+        grid-area: img1;
+        
+    }
+    .estilo-experiencias__fotos--2{
+        grid-area: img2;
+    }
+    .estilo-experiencias__fotos--3{
+        grid-area: img3;
+    }
+    
+    .estilo-experiencias__fotos--4{
+        grid-area: img4;
+    }
+    .estilo-experiencias__fotos--5{
+        grid-area: img5;
+    }
+    .estilo-experiencias__fotos--6{
+        grid-area: img6;
+    }
+    
+    .estilo-experiencias__fotos--7{
+        grid-area: img7;
+    }
+    .estilo-experiencias__fotos--8{
+        grid-area: img8;
+    }
+    .estilo-experiencias__fotos--9{
+        grid-area: img9;
+    }
+    
+    .estilo-experiencias__fotos--10{
+        grid-area: img10;
+    }
+    .estilo-experiencias__fotos--11{
+        grid-area: img11;
+    }
+    .estilo-experiencias__fotos--12{
+        grid-area: img12;
+    }   
+    .estilo-propuestas__fotos{
+        width: 90% ;
+        margin: 0 auto;
+       
+       }   
 }
