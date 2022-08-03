@@ -102,11 +102,7 @@ a {
   border-radius: 100rem;
   overflow: hidden;
   border: 1px solid white;
-  object-fit: cover;
-  transition: all 1s; }
-
-.quienessomos__foto img:hover {
-  content: url(../../imagenes/playa.jpeg); }
+  object-fit: cover; }
 
 .quienessomos__titulos {
   text-transform: uppercase; }
