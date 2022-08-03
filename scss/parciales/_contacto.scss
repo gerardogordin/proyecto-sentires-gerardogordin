@@ -1,0 +1,40 @@
+
+.formulario {
+    // background-image: url(../imagenes/Espacio\ listo\ 1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+::placeholder{
+    color: blueviolet;
+}
+
+.formulario__especifico{
+width:  auto;
+height: auto;
+
+
+}
+.textarea{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+    
+}
+
+.textarea1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+       
+
+}
+.foto-panza{
+    object-fit: cover;
+}

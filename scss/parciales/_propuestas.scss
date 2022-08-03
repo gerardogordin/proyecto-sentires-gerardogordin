@@ -1,0 +1,29 @@
+.estilo-propuestas{
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    overflow: hidden;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    
+    }
+    
+    .estilo-propuestas__fotos {
+        gap: 1rem;
+        width: 350px;
+        height: 350px;
+        margin: 1rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        border: 1px solid white;
+        transition:all 1s;
+        }
+    
+        .estilo-propuestas__fotos:hover{
+            transform: scale(1.15);
+        }
+    

@@ -1,0 +1,53 @@
+
+.propiedades-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    justify-content: space-between;
+}
+
+
+.propiedades-header__menu{
+    display: flex;
+    align-items: flex-end;
+}
+
+.estilologo{
+    display: flex;
+    margin: 1px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }   
+}
+.menu-nav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-bottom: 0;
+    
+    
+}
+
+.menu-nav__enlaces{
+    display: flex;
+    margin: 10px;
+    transition: all 1s;
+}
+.menu-nav__enlaces:hover{
+transform: scale(1.15);
+
+}

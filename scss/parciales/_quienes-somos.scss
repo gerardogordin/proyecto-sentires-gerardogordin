@@ -1,0 +1,37 @@
+
+
+.quienessomos{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    
+    }
+    
+    .quienessomos__foto{
+        img{
+        width: 450px;
+        height: 450px;
+        border-radius: 100rem;
+        overflow: hidden;
+        border: 1px solid white;
+        object-fit: cover;
+        transition:all 1s;
+        
+        }
+
+        img:hover{
+            content:url(../../imagenes/playa.jpeg)
+        }
+                   
+    }
+    .quienessomos__titulos{
+        text-transform: uppercase;
+    }
+    .quienessomos__texto{
+        text-align: justify;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        color: rgb(40, 24, 3);
+        
+    }
+    

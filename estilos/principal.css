@@ -95,120 +95,13 @@ a {
   height: auto; }
 
 .textarea {
-  max-width: 0 auto; }
+  width: 0 auto;
+  text-align: center; }
 
 .textarea1 {
   display: flex;
   text-align: center;
   flex-direction: column; }
-
-.estilo-propuestas {
-  display: grid;
-  padding: 1rem;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  justify-items: center;
-  overflow: hidden;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  width: 100%; }
-
-.estilo-propuestas__fotos {
-  gap: 1rem;
-  width: 350px;
-  height: 350px;
-  margin: 1rem;
-  border-radius: 1rem;
-  overflow: hidden;
-  border: 1px solid white;
-  transition: all 1s; }
-
-.estilo-propuestas__fotos:hover {
-  transform: scale(1.15); }
-
-.estilo-experiencias {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "img1 video video img2"  "img3 video video img4"  "img5 img6 img7 img8"  "img9 img10 img11 img12"; }
-
-.estilo-experiencias__fotos {
-  gap: 30px;
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  border-radius: 100rem;
-  overflow: hidden;
-  background-size: cover; }
-
-.estilo-experiencias__video {
-  gap: 30px;
-  margin: 0 auto;
-  border-radius: 1rem;
-  overflow: hidden;
-  background-size: cover;
-  justify-content: center;
-  align-items: center; }
-
-.estilo-experiencias__video--1 {
-  grid-area: video; }
-
-.estilo-experiencias__fotos--1 {
-  grid-area: img1; }
-
-.estilo-experiencias__fotos--2 {
-  grid-area: img2; }
-
-.estilo-experiencias__fotos--3 {
-  grid-area: img3; }
-
-.estilo-experiencias__fotos--4 {
-  grid-area: img4; }
-
-.estilo-experiencias__fotos--5 {
-  grid-area: img5; }
-
-.estilo-experiencias__fotos--6 {
-  grid-area: img6; }
-
-.estilo-experiencias__fotos--7 {
-  grid-area: img7; }
-
-.estilo-experiencias__fotos--8 {
-  grid-area: img8; }
-
-.estilo-experiencias__fotos--9 {
-  grid-area: img9; }
-
-.estilo-experiencias__fotos--10 {
-  grid-area: img10; }
-
-.estilo-experiencias__fotos--11 {
-  grid-area: img11; }
-
-.estilo-experiencias__fotos--12 {
-  grid-area: img12; }
-
-.quienessomos {
-  width: 100%;
-  text-align: center; }
-
-.quienessomos__foto {
-  width: 450px;
-  height: 450px;
-  border-radius: 100rem;
-  overflow: hidden;
-  border: 1px solid white; }
-
-.quienessomos__titulos {
-  text-transform: uppercase; }
-
-.quienessomos__titulos--texto {
-  text-align: justify;
-  padding: 25px; }
 
 @media screen and (max-width: 1023px) {
   .estilo-index {
