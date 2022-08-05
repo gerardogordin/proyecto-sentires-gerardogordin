@@ -12,7 +12,7 @@
     "img9 img10 img11 img12"; 
  }
 
- &__fotos {
+ .estilo-experiencias__fotos {
     gap: 30px;
     width: 300px;
     height: 300px;
@@ -22,7 +22,7 @@
     background-size: cover;
 
 } 
-&__video{
+.estilo-experiencias__video{
     gap: 30px;
     margin: 0 auto;
     border-radius: 1rem;
