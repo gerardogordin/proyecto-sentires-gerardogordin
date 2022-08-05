@@ -145,8 +145,22 @@ a {
   text-align: center;
 }
 
-::placeholder {
-  color: blueviolet;
+.formulario__especifico {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.formulario__especifico {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .formulario__especifico {
@@ -164,6 +178,10 @@ a {
   display: flex;
   text-align: center;
   flex-direction: column;
+}
+
+::placeholder {
+  color: blueviolet;
 }
 
 .foto-panza {
