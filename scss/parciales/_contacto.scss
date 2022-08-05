@@ -1,39 +1,58 @@
 
 .formulario {
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
+   display: flex;
+   background-repeat: no-repeat;
+   background-size: cover;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
+   text-align: center;
+
+}
+
+
+.formulario__especifico{
+     display: flex;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-weight: bold;
+     text-transform: uppercase;
+   text-align: center;
+}
+
+.formulario__especifico{
+     display: flex;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-align: center;
+
+ }
+
+
+ .formulario__especifico{ 
+     width:  auto; height: auto;
+
+
+}
+ .textarea{
+    max-width: 500px;
+     margin: 0 auto;
+     text-align: center;
+    
+
+     }
+
+ .textarea1{
+    display: flex;
+     text-align: center;
+     flex-direction: column;
+       
 
 }
 ::placeholder{
     color: blueviolet;
 }
-
-.formulario__especifico{
-width:  auto;
-height: auto;
-
-
-}
-.textarea{
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    
-
-    
-}
-
-.textarea1{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-       
-
-}
-.foto-panza{
-    object-fit: cover;
-}
+ .foto-panza{
+     object-fit: cover;
+ }
