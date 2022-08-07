@@ -94,13 +94,8 @@ a {
   color: #050f17;
   font-size: large;
   text-transform: uppercase;
-  /* font-weight: bold; */
   padding-top: 90px;
-  background-size: cover;
-  object-fit: cover;
   height: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .estilo-index__imagen {
@@ -123,6 +118,11 @@ a {
   overflow: hidden;
   border: 1px solid white;
   object-fit: cover;
+  transition: all 1s;
+}
+
+.quienessomos__foto img:hover {
+  content: url(../../imagenes/playa.png);
 }
 
 .quienessomos__titulos {
@@ -141,26 +141,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
 }
 
-.formulario__especifico {
-  display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.formulario__especifico {
-  display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
+::placeholder {
+  color: blueviolet;
 }
 
 .formulario__especifico {
@@ -178,10 +163,6 @@ a {
   display: flex;
   text-align: center;
   flex-direction: column;
-}
-
-::placeholder {
-  color: blueviolet;
 }
 
 .foto-panza {

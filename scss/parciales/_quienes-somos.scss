@@ -15,10 +15,16 @@
         overflow: hidden;
         border: 1px solid white;
         object-fit: cover;
+        transition: all 1s;
       
         
         }
-    
+    }
+          
+    .quienessomos__foto{
+        img:hover{
+        content:url(../../imagenes/playa.png);    
+        }
                    
     }
     .quienessomos__titulos{
