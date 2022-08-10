@@ -114,7 +114,7 @@ a {
 .quienessomos__foto img {
   width: 450px;
   height: 450px;
-  border-radius: 100rem;
+  border-radius: 50%;
   overflow: hidden;
   border: 1px solid white;
   object-fit: cover;
@@ -170,8 +170,8 @@ a {
 }
 
 .estilo-experiencias {
-  height: 100%;
   width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -179,11 +179,11 @@ a {
 }
 
 .estilo-experiencias__fotos {
-  gap: 30px;
   width: 300px;
   height: 300px;
+  gap: 30px;
   margin: 5px;
-  border-radius: 100rem;
+  border-radius: 50%;
   overflow: hidden;
   background-size: cover;
 }
@@ -264,9 +264,9 @@ a {
 }
 
 .estilo-propuestas__fotos {
-  gap: 1rem;
   width: 350px;
   height: 350px;
+  gap: 1rem;
   margin: 1rem;
   border-radius: 1rem;
   overflow: hidden;
@@ -417,8 +417,8 @@ a {
     text-transform: none;
   }
   .textarea {
-    height: 230px;
     width: 100%;
+    height: 230px;
   }
   .foto-panza {
     display: none;

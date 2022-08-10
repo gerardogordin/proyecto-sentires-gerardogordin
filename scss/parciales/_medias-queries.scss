@@ -161,8 +161,9 @@
 
         .quienessomos__foto{
             img{
-                width: 250px;
-                height: 250px;
+                @include sizes (250px, 250px);
+                // width: 250px;
+                // height: 250px;
                }
         }
 .formulario{
@@ -180,8 +181,9 @@
     }
 
     .textarea{
-        height: 230px;
-        width: 100%;
+        // height: 230px;
+        // width: 100%;
+        @include sizes (100%, 230px);
 }
 
 .foto-panza{
@@ -265,8 +267,9 @@ border-bottom: 1px solid white;
         padding-top: 20px;
      }
      .estilo-experiencias{
-        width: 100%;
-        height: 100%;
+        // width: 100%;
+        // height: 100%;
+        @include sizes (100%, 100%);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
@@ -328,3 +331,6 @@ border-bottom: 1px solid white;
 
        } 
     }
+
+
+

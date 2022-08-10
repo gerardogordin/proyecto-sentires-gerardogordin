@@ -5,36 +5,36 @@
     text-align: center;
     padding: 1rem;
     
-    }
     
-    .quienessomos__foto{
+    
+    &__foto{
         img{
-        width: 450px;
-        height: 450px;
-        border-radius: 100rem;
+        @include sizes (450px, 450px);
+        border-radius: $imagenCircular;
         overflow: hidden;
         border: 1px solid white;
         object-fit: cover;
         transition: all 1s;
-      
+        }
         
         }
-    }
+    
           
-    .quienessomos__foto{
+    &__foto{
         img:hover{
         content:url(../imagenes/roxaycynenlaplaya.jpg);    
         }
                    
     }
-    .quienessomos__titulos{
+    &__titulos{
         text-transform: uppercase;
     }
-    .quienessomos__texto{
+    &__texto{
         text-align: justify;
         padding-right: 3rem;
         padding-left: 3rem;
         color: rgb(40, 24, 3);
         
     }
+}
     

@@ -1,7 +1,7 @@
 
 .estilo-experiencias{
-    height: 100%;
-    width: 100%;
+
+    @include sizes (100%, 100%);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -13,11 +13,10 @@
  
 
         &__fotos {
+            @include sizes (300px, 300px);
             gap: 30px;
-            width: 300px;
-            height: 300px;
             margin: 5px;
-            border-radius: 100rem;
+            border-radius: $imagenCircular;
             overflow: hidden;
             background-size: cover;
         }

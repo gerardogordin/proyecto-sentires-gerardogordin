@@ -12,9 +12,8 @@
 }
 
 .formulario__especifico{
-width:  auto;
-height: auto;
 
+@include sizes (auto, auto)
 
 }
 .textarea{
