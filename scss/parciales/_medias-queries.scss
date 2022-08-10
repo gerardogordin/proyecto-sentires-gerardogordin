@@ -7,21 +7,18 @@
         display: flex;
         width: 100%;
         flex-direction: column;
-    }
-    .estilo-index__texto{
-        height: 350px;
-        color:rgb(5, 15, 23) ;
-        font-size: medium;
-        text-transform: uppercase;
-        font-weight: normal;
-        padding-top: 0;
-        background-size: cover;
-        line-height: normal;
-    
-
-
-
-        }
+                &__texto{
+                    height: 350px;
+                    color:rgb(5, 15, 23) ;
+                    font-size: medium;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    padding-top: 0;
+                    background-size: cover;
+                    line-height: normal;
+                
+                    }
+                }
 
         .estilo-propuestas{
             width:auto;
@@ -48,7 +45,8 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
     "video video"
@@ -59,62 +57,62 @@
     "img9 img10"
     "img11 img12";
    
-}
-.estilo-experiencias__video--1{
+&__video--1{
     grid-area: video;
     }
 
-.estilo-experiencias__fotos--1{
+&__fotos--1{
     grid-area: img1;
     
 }
-.estilo-experiencias__fotos--2{
+&__fotos--2{
     grid-area: img2;
 }
-.estilo-experiencias__fotos--3{
+&__fotos--3{
     grid-area: img3;
 }
 
-.estilo-experiencias__fotos--4{
+&__fotos--4{
     grid-area: img4;
 }
-.estilo-experiencias__fotos--5{
+&__fotos--5{
     grid-area: img5;
 }
-.estilo-experiencias__fotos--6{
+&__fotos--6{
     grid-area: img6;
 }
 
-.estilo-experiencias__fotos--7{
+&__fotos--7{
     grid-area: img7;
 }
-.estilo-experiencias__fotos--8{
+&__fotos--8{
     grid-area: img8;
 }
-.estilo-experiencias__fotos--9{
+&__fotos--9{
     grid-area: img9;
 }
 
-.estilo-experiencias__fotos--10{
+&__fotos--10{
     grid-area: img10;
 }
-.estilo-experiencias__fotos--11{
+&__fotos--11{
     grid-area: img11;
 }
-.estilo-experiencias__fotos--12{
+&__fotos--12{
     grid-area: img12;
 }   
-.estilo-propuestas__fotos{
+&__fotos{
     width: 90% ;
     margin: 0 auto;
-   
+}
    }   
-   .foto-panza{
+
+.foto-panza{
     display: none;
    }
 
 
-}
+}   
 
 @media screen and (max-width: 599px ){
 
@@ -128,11 +126,6 @@
         justify-content: flex-end;
         align-items: flex-end;
         line-height: normal;
-               
-        
-    }
-
-    .menu-nav{
         gap: auto;
         margin-top: 20px;
     }
@@ -148,20 +141,19 @@
         width: 100%;
         flex-direction: column;
        
-        }
-
-        .estilo-index__texto{
-        height: 400px;
-        color:rgb(5, 15, 23) ;
-        font-size: large;
-        text-transform: none;
-        font-weight:normal ;
-        padding-top: 0px;
-        background-size: cover;
-        text-transform: uppercase;
-        line-height:1.5;
-           
-        }
+                &__texto{
+                    height: 400px;
+                    color:rgb(5, 15, 23) ;
+                    font-size: large;
+                    text-transform: none;
+                    font-weight:normal ;
+                    padding-top: 0px;
+                    background-size: cover;
+                    text-transform: uppercase;
+                    line-height:1.5;
+                    
+                    }
+                }
 
           .titulo_sentires{
             font-weight: bolder;
@@ -181,11 +173,9 @@
     background-image: none;
     margin-bottom: 1.5rem ;
 
-    }
-
-    .formulario__especifico{
-    text-transform: none;
-
+        &__especifico{
+            text-transform: none;
+        }
 
     }
 
@@ -206,61 +196,63 @@ border: none;
 grid-template-columns: 100%;
 border-top: 1px solid white;
 border-bottom: 1px solid white;
-}
 
 
-.estilo-propuestas__fotos{
- width: 90% ;
- margin: 0 auto;
-
-}
+        &__fotos{
+            width: 90% ;
+            margin: 0 auto;
+                }
+    }
 
 .estilo-experiencias{
     display: flex;
     flex-direction: column;
     
 
-}
-.estilo-experiencias__fotos{
-border-radius: 200rem;
+    &__fotos{
+    border-radius: 200rem;
+        }   
 
-}
+    &__fotos--1{
+            margin: 20px auto;
+                }
 
-.estilo-experiencias__fotos--1{
-   
+    &__fotos--2{
+        margin: 20px auto;
+    }
+    &__fotos--3{
+        margin: 20px auto;
+    }
+    &__fotos--4{
+        margin: 20px auto;
+    }   
+    &fotos--5{
+        margin: 20px auto;
+    }   
+    &__fotos--6{
+        margin: 20px auto;
+    }
+    &__fotos--7{
+        margin: 20px auto;
+    }   
+    &__fotos--8{
+        margin: 20px auto;
+    }   
+    &__fotos--9{
+        margin: 20px auto;
+    }
+
+    &__fotos--10{
+        margin: 20px auto;
+    }
+    &__fotos--11{
     margin: 20px auto;
-    
+    }
+    &__fotos--12{
+        margin: 20px auto;
+    }
+
 }
-
-.estilo-experiencias__fotos--2{
-    margin: 20px auto;
-}
-.estilo-experiencias__fotos--3{
-    margin: 20px auto;
-}
-
-.estilo-experiencias__fotos--4{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--5{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--6{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--7{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--8{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--9{
-    margin: 20px auto;}
-
-.estilo-experiencias__fotos--10{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--11{
-    margin: 20px auto;}
-.estilo-experiencias__fotos--12{
-    margin: 20px auto;}
-
-
-
 }
 
 @media  (min-width:1024px) and (max-width:1180px){
@@ -335,4 +327,4 @@ border-radius: 200rem;
         margin: 0 auto;
 
        } 
-}
+    }

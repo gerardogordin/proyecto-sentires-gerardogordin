@@ -5,14 +5,13 @@
     flex-direction: row;
     font-size: small;
     justify-content: space-between;
+
+
+            &__menu{
+            display: flex;
+            align-items: flex-end;
+                    }
 }
-
-
-.propiedades-header__menu{
-    display: flex;
-    align-items: flex-end;
-}
-
 .estilologo{
     display: flex;
     margin: 1px;
@@ -40,14 +39,13 @@
     margin-bottom: 0;
     
     
-}
+            &__enlaces{
+                display: flex;
+                margin: 10px;
+                transition: all 1s;
+            }
+                    &__enlaces:hover{
+                    transform: scale(1.15);
 
-.menu-nav__enlaces{
-    display: flex;
-    margin: 10px;
-    transition: all 1s;
-}
-.menu-nav__enlaces:hover{
-transform: scale(1.15);
-
-}
+                    }
+                }
