@@ -6,22 +6,21 @@
     font-weight: bold;
     text-align: center;
 
-}
+            &__especifico{
+
+            @include sizes (auto, auto)
+
+        }
+    }
 ::placeholder{
     color: blueviolet;
 }
 
-.formulario__especifico{
-
-@include sizes (auto, auto)
-
-}
 .textarea{
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
     
-
     
 }
 
