@@ -266,8 +266,8 @@ a {
 .estilo-propuestas__fotos {
   width: 350px;
   height: 350px;
-  gap: 1rem;
-  margin: 1rem;
+  gap: 5px;
+  margin: 5px;
   border-radius: 1rem;
   overflow: hidden;
   border: 1px solid white;
@@ -538,6 +538,18 @@ a {
   }
   .estilo-experiencias__fotos {
     width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .estilo-propuestas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+  .estilo-propuestas__fotos {
+    width: 80%;
     margin: 0 auto;
   }
 }

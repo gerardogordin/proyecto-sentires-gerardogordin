@@ -162,9 +162,7 @@
         .quienessomos__foto{
             img{
                 @include sizes (250px, 250px);
-                // width: 250px;
-                // height: 250px;
-               }
+                           }
         }
 .formulario{
     display: flex;
@@ -181,8 +179,7 @@
     }
 
     .textarea{
-        // height: 230px;
-        // width: 100%;
+
         @include sizes (100%, 230px);
 }
 
@@ -332,4 +329,15 @@ border-bottom: 1px solid white;
             }
 }
 
-
+@media (min-width:600px) and (max-width: 800px) {
+    .estilo-propuestas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        
+                &__fotos{
+                    width: 80% ;
+                    margin: 0 auto;
+                        }
+            }
+}
