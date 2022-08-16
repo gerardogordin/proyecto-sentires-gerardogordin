@@ -136,6 +136,13 @@ a {
   color: #281803;
 }
 
+.presentaciones img {
+  width: 350px;
+  height: 350px;
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+
 .formulario {
   display: flex;
   background-repeat: no-repeat;
@@ -293,6 +300,11 @@ a {
     padding-top: 0;
     background-size: cover;
     line-height: normal;
+  }
+  .presentaciones {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .estilo-propuestas {
     width: auto;

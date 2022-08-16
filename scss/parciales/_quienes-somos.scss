@@ -37,4 +37,14 @@
         
     }
 }
+.presentaciones{
+    img{
+    @include sizes (350px, 350px);
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+}
+
+
     
