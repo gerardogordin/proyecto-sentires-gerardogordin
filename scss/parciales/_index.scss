@@ -1,19 +1,13 @@
 .estilo-index{
-    width: 100%;
-    padding: 0px;
+   
     
             &__texto{
                 
                 text-align: center;
-                color:rgb(5, 15, 23) ;
+                color: $colorParrafos ;
                 font-size:large;
-                text-transform: uppercase;
                 padding-top: 90px;
-
-                height: 100%;
-                
-                
-                }
+                     }
     
                     &__imagen{
                     @include sizes (100%, 100%);            
