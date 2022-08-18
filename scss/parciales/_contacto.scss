@@ -1,31 +1,9 @@
-
-.formulario {
-    display: flex;
-    font-weight: bold;
-    text-align: center;
-
-
-    }
-::placeholder{
-    color: blueviolet;
-}
-
-.textarea{
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    
-    
-}
-
-.textarea1{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-       
-
-}
 .foto-panza{
     object-fit: cover;
-    
-}
+    margin: 1rem;
+    }
+
+.formulario{
+    max-width: 50%;
+    margin: 0 auto; 
+    }
