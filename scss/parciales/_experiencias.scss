@@ -1,85 +1,15 @@
-
-.estilo-experiencias{
-
-    @include sizes (100%, 100%);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    // grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    "img1 video video img2" 
-    "img3 video video img4" 
-    "img5 img6 img7 img8" 
-    "img9 img10 img11 img12"; 
+.carousel{
+    max-width: 40% !important;
+    max-height: 40% !important;
     margin: 0 auto;
- 
-
-        &__fotos {
-            @include sizes (300px, 300px);
-            gap: 30px;
-            margin: 5px;
-            border-radius: $imagenCircular;
-            overflow: hidden;
-            background-size: cover;
-           
-            
-        }
-
-        &__video{
-            gap: 30px;
-            margin: 0 auto;
-            border-radius: 1rem;
-            overflow: hidden;
-            object-fit: cover;
-
-
-
-
-        }
     
-
-                &__video--1{
-                    grid-area: video;
-                    }
-
-                &__fotos--1{
-                    grid-area: img1;
-                    
-                }
-
-                &__fotos--2{
-                    grid-area: img2;
-                }
-                &__fotos--3{
-                    grid-area: img3;
-                }
-
-                &__fotos--4{
-                    grid-area: img4;
-                }
-                &__fotos--5{
-                    grid-area: img5;
-                }
-                &__fotos--6{
-                    grid-area: img6;
-                }
-
-                &__fotos--7{
-                    grid-area: img7;
-                }
-                &__fotos--8{
-                    grid-area: img8;
-                }
-                &__fotos--9{
-                    grid-area: img9;
-                }
-
-                &__fotos--10{
-                    grid-area: img10;
-                }
-                &__fotos--11{
-                    grid-area: img11;
-                }
-                &__fotos--12{
-                    grid-area: img12;
-                }
-                }
+  }
+  .carousel-item{
+     object-fit: cover;
+   
+  }
+  .audio{
+  text-align: center;
+  margin: 10px;
+  
+  }

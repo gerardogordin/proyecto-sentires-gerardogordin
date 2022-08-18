@@ -146,83 +146,19 @@ main {
   margin: 0 auto;
 }
 
-.estilo-experiencias {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "img1 video video img2"  "img3 video video img4"  "img5 img6 img7 img8"  "img9 img10 img11 img12";
+.carousel {
+  max-width: 40% !important;
+  max-height: 40% !important;
   margin: 0 auto;
 }
 
-.estilo-experiencias__fotos {
-  width: 300px;
-  height: 300px;
-  gap: 30px;
-  margin: 5px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-size: cover;
-}
-
-.estilo-experiencias__video {
-  gap: 30px;
-  margin: 0 auto;
-  border-radius: 1rem;
-  overflow: hidden;
+.carousel-item {
   object-fit: cover;
 }
 
-.estilo-experiencias__video--1 {
-  grid-area: video;
-}
-
-.estilo-experiencias__fotos--1 {
-  grid-area: img1;
-}
-
-.estilo-experiencias__fotos--2 {
-  grid-area: img2;
-}
-
-.estilo-experiencias__fotos--3 {
-  grid-area: img3;
-}
-
-.estilo-experiencias__fotos--4 {
-  grid-area: img4;
-}
-
-.estilo-experiencias__fotos--5 {
-  grid-area: img5;
-}
-
-.estilo-experiencias__fotos--6 {
-  grid-area: img6;
-}
-
-.estilo-experiencias__fotos--7 {
-  grid-area: img7;
-}
-
-.estilo-experiencias__fotos--8 {
-  grid-area: img8;
-}
-
-.estilo-experiencias__fotos--9 {
-  grid-area: img9;
-}
-
-.estilo-experiencias__fotos--10 {
-  grid-area: img10;
-}
-
-.estilo-experiencias__fotos--11 {
-  grid-area: img11;
-}
-
-.estilo-experiencias__fotos--12 {
-  grid-area: img12;
+.audio {
+  text-align: center;
+  margin: 10px;
 }
 
 .estilo-propuestas {
@@ -281,56 +217,9 @@ main {
     max-width: 70%;
     margin: 0 auto;
   }
-  .estilo-experiencias {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "video video" "img1 img2" "img3 img4" "img5 img6" "img7 img8" "img9 img10" "img11 img12";
-  }
-  .estilo-experiencias__video--1 {
-    grid-area: video;
-  }
-  .estilo-experiencias__fotos--1 {
-    grid-area: img1;
-  }
-  .estilo-experiencias__fotos--2 {
-    grid-area: img2;
-  }
-  .estilo-experiencias__fotos--3 {
-    grid-area: img3;
-  }
-  .estilo-experiencias__fotos--4 {
-    grid-area: img4;
-  }
-  .estilo-experiencias__fotos--5 {
-    grid-area: img5;
-  }
-  .estilo-experiencias__fotos--6 {
-    grid-area: img6;
-  }
-  .estilo-experiencias__fotos--7 {
-    grid-area: img7;
-  }
-  .estilo-experiencias__fotos--8 {
-    grid-area: img8;
-  }
-  .estilo-experiencias__fotos--9 {
-    grid-area: img9;
-  }
-  .estilo-experiencias__fotos--10 {
-    grid-area: img10;
-  }
-  .estilo-experiencias__fotos--11 {
-    grid-area: img11;
-  }
-  .estilo-experiencias__fotos--12 {
-    grid-area: img12;
-  }
-  .estilo-experiencias__fotos {
-    width: 90%;
+  .carousel {
+    max-width: 60% !important;
+    max-height: 60% !important;
     margin: 0 auto;
   }
 }
@@ -373,7 +262,7 @@ main {
     height: 250px;
   }
   .formulario {
-    max-width: 850%;
+    max-width: 90%;
     margin: 0 auto;
   }
   .estilo-propuestas {
@@ -388,48 +277,10 @@ main {
     width: 90%;
     margin: 0 auto;
   }
-  .estilo-experiencias {
-    display: flex;
-    flex-direction: column;
-  }
-  .estilo-experiencias__fotos {
-    border-radius: 200rem;
-  }
-  .estilo-experiencias__fotos--1 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--2 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--3 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--4 {
-    margin: 20px auto;
-  }
-  .estilo-experienciasfotos--5 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--6 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--7 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--8 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--9 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--10 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--11 {
-    margin: 20px auto;
-  }
-  .estilo-experiencias__fotos--12 {
-    margin: 20px auto;
+  .carousel {
+    max-width: 60% !important;
+    max-height: 90% !important;
+    margin: 0 auto;
   }
 }
 
@@ -442,55 +293,9 @@ main {
   .estilo-index__texto {
     padding-top: 20px;
   }
-  .estilo-experiencias {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "video video video" "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12";
-  }
-  .estilo-experiencias__video--1 {
-    grid-area: video;
-  }
-  .estilo-experiencias__fotos--1 {
-    grid-area: img1;
-  }
-  .estilo-experiencias__fotos--2 {
-    grid-area: img2;
-  }
-  .estilo-experiencias__fotos--3 {
-    grid-area: img3;
-  }
-  .estilo-experiencias__fotos--4 {
-    grid-area: img4;
-  }
-  .estilo-experiencias__fotos--5 {
-    grid-area: img5;
-  }
-  .estilo-experiencias__fotos--6 {
-    grid-area: img6;
-  }
-  .estilo-experiencias__fotos--7 {
-    grid-area: img7;
-  }
-  .estilo-experiencias__fotos--8 {
-    grid-area: img8;
-  }
-  .estilo-experiencias__fotos--9 {
-    grid-area: img9;
-  }
-  .estilo-experiencias__fotos--10 {
-    grid-area: img10;
-  }
-  .estilo-experiencias__fotos--11 {
-    grid-area: img11;
-  }
-  .estilo-experiencias__fotos--12 {
-    grid-area: img12;
-  }
-  .estilo-experiencias__fotos {
-    width: 90%;
+  .carousel {
+    max-width: 60% !important;
+    max-height: 60% !important;
     margin: 0 auto;
   }
 }

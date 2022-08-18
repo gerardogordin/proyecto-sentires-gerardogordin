@@ -1,8 +1,5 @@
-
-
-
-
 @media screen and (max-width: 1023px) {
+
     .estilo-index{
         display: flex;
         width: 100%;
@@ -17,95 +14,35 @@
                 
                     }
                 }
-        .presentaciones{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+.presentaciones{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         }
 
-        .estilo-propuestas{
-            width:auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-
-            }
-            .formulario{
-                max-width: 70%;
-                margin: 0 auto; 
-                }
-            
-
-.estilo-experiencias{
-    width: 100%;
-    height: 100%;
+.estilo-propuestas{
+    width:auto;
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "video video"
-    "img1 img2"
-    "img3 img4"
-    "img5 img6"
-    "img7 img8"
-    "img9 img10"
-    "img11 img12";
-   
-&__video--1{
-    grid-area: video;
+    grid-template-columns: 1fr 1fr;
+            }
+
+.formulario{
+    max-width: 70%;
+    margin: 0 auto; 
     }
 
-&__fotos--1{
-    grid-area: img1;
-    
-}
-&__fotos--2{
-    grid-area: img2;
-}
-&__fotos--3{
-    grid-area: img3;
-}
-
-&__fotos--4{
-    grid-area: img4;
-}
-&__fotos--5{
-    grid-area: img5;
-}
-&__fotos--6{
-    grid-area: img6;
-}
-
-&__fotos--7{
-    grid-area: img7;
-}
-&__fotos--8{
-    grid-area: img8;
-}
-&__fotos--9{
-    grid-area: img9;
-}
-
-&__fotos--10{
-    grid-area: img10;
-}
-&__fotos--11{
-    grid-area: img11;
-}
-&__fotos--12{
-    grid-area: img12;
-}   
-&__fotos{
-    width: 90% ;
+.carousel{
+    max-width: 60% !important;
+    max-height: 60% !important;
     margin: 0 auto;
-}
-   }   
+                    
+                  }
 }   
 
 @media screen and (max-width: 599px ){
 
 
-    .propiedades-header {
+.propiedades-header {
     height:180px;
     }
 
@@ -118,31 +55,31 @@
         margin-top: 20px;
     }
 
-    .estilologo{
+.estilologo{
         align-items: center;
         justify-content: center;
     }
 
 
-    .estilo-index{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
+.estilo-index{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
        
-                &__texto{
-                    height: 400px;
-                    color:rgb(5, 15, 23) ;
-                    font-size: large;
-                    font-weight:normal ;
-                    padding-top: 0px;
-                    background-size: cover;
-                    line-height:1.5;
-                    
+       &__texto{
+            height: 400px;
+            color:rgb(5, 15, 23) ;
+            font-size: large;
+            font-weight:normal ;
+            padding-top: 0px;
+            background-size: cover;
+            line-height:1.5;
+            
                     }
                 }
 
-          .titulo_sentires{
-            font-weight: bolder;
+.titulo_sentires{
+        font-weight: bolder;
         }
 
         .quienessomos__foto{
@@ -152,19 +89,19 @@
         }
 
 .formulario{
-            max-width: 850%;
-            margin: 0 auto; 
+    max-width:90%;
+    margin: 0 auto; 
             }
 
 
 
 .estilo-propuestas{
-width: auto;
-display: grid;
-border: none;
-grid-template-columns: 100%;
-border-top: 1px solid white;
-border-bottom: 1px solid white;
+    width: auto;
+    display: grid;
+    border: none;
+    grid-template-columns: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 
 
         &__fotos{
@@ -173,55 +110,11 @@ border-bottom: 1px solid white;
                 }
     }
 
-.estilo-experiencias{
-    display: flex;
-    flex-direction: column;
-    
-
-    &__fotos{
-    border-radius: 200rem;
-        }   
-
-    &__fotos--1{
-            margin: 20px auto;
-                }
-
-    &__fotos--2{
-        margin: 20px auto;
+.carousel{
+    max-width: 60% !important;
+    max-height: 90% !important;
+    margin: 0 auto;
     }
-    &__fotos--3{
-        margin: 20px auto;
-    }
-    &__fotos--4{
-        margin: 20px auto;
-    }   
-    &fotos--5{
-        margin: 20px auto;
-    }   
-    &__fotos--6{
-        margin: 20px auto;
-    }
-    &__fotos--7{
-        margin: 20px auto;
-    }   
-    &__fotos--8{
-        margin: 20px auto;
-    }   
-    &__fotos--9{
-        margin: 20px auto;
-    }
-
-    &__fotos--10{
-        margin: 20px auto;
-    }
-    &__fotos--11{
-    margin: 20px auto;
-    }
-    &__fotos--12{
-        margin: 20px auto;
-    }
-
-}
 }
 
 @media  (min-width:1024px) and (max-width:1180px){
@@ -234,69 +127,12 @@ border-bottom: 1px solid white;
         padding-top: 20px;
      }
 
-     .estilo-experiencias{
-        @include sizes (100%, 100%);
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "video video video"
-        "img1 img2 img3"
-        "img4 img5 img6"
-        "img7 img8 img9"
-        "img10 img11 img12";
-
+.carousel{
+    max-width: 60% !important;
+    max-height: 60% !important;
+    margin: 0 auto;
     
-            &__video--1{
-                grid-area: video;
-                }
-
-            &__fotos--1{
-                grid-area: img1;
-
-            }
-            &__fotos--2{
-                grid-area: img2;
-            }
-            &__fotos--3{
-                grid-area: img3;
-            }
-
-            &__fotos--4{
-                grid-area: img4;
-            }
-            &__fotos--5{
-                grid-area: img5;
-            }
-            &__fotos--6{
-                grid-area: img6;
-            }
-
-            &__fotos--7{
-                grid-area: img7;
-            }
-            &__fotos--8{
-                grid-area: img8;
-            }
-            &__fotos--9{
-                grid-area: img9;
-            }
-
-            &__fotos--10{
-                grid-area: img10;
-            }
-            &__fotos--11{
-                grid-area: img11;
-            }
-            &__fotos--12{
-                grid-area: img12;
-            }   
-            &__fotos{
-                width: 90% ;
-                margin: 0 auto;
-
-            } 
-            }
+    }
 }
 
 @media (min-width:600px) and (max-width: 800px) {
