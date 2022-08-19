@@ -39,6 +39,8 @@ main {
   animation-name: logo;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  width: 125px;
+  height: 125px;
 }
 
 @keyframes logo {
@@ -51,6 +53,11 @@ main {
   100% {
     opacity: 1;
   }
+}
+
+.logocentrado {
+  display: flex;
+  align-items: center;
 }
 
 .menu-nav {
@@ -82,6 +89,11 @@ main {
 
 .estilo-foooter__enlaces {
   padding: 10px;
+}
+
+.estilo-foooter .iconos {
+  width: 40px;
+  height: 40px;
 }
 
 .estilo-index__texto {

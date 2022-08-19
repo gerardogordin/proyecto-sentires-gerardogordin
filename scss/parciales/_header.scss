@@ -20,6 +20,7 @@
     animation-name: logo;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    @include sizes (125px, 125px)
 }
 @keyframes logo {
     0%{
@@ -33,6 +34,10 @@
     100%{
         opacity: 1;
     }   
+}
+.logocentrado{
+    display: flex;
+    align-items: center;
 }
 .menu-nav {
     display: flex;

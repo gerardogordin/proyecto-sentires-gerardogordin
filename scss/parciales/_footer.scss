@@ -13,8 +13,9 @@
 
             &__enlaces{
                 padding: 10px;
-              
-    
-                
+                  
             }
-        }
+    .iconos{
+            @include sizes (40px, 40px)
+}
+}
