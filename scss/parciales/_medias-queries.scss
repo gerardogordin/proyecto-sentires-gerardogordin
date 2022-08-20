@@ -115,6 +115,10 @@
     max-height: 90% !important;
     margin: 0 auto;
     }
+.fotitos{
+    @include sizes (100%, 100%);
+    margin: 0 auto;
+}
 }
 
 @media  (min-width:1024px) and (max-width:1180px){

@@ -27,3 +27,7 @@
                     }
                 }
                 
+.fotitos{
+    @include sizes (100%, 375px);
+     margin: 0 auto;
+}                
