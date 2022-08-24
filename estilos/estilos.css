@@ -70,11 +70,11 @@ main {
 .menu-nav__enlaces {
   display: flex;
   margin: 10px;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .menu-nav__enlaces:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 .estilo-foooter {
@@ -98,7 +98,7 @@ main {
 
 .estilo-index__texto {
   text-align: center;
-  color: #050f17;
+  color: #311b07;
   font-size: large;
   padding-top: 90px;
 }
@@ -137,7 +137,7 @@ main {
   text-align: justify;
   margin: 1px 2px;
   padding: 10px;
-  color: #050f17;
+  color: #311b07;
 }
 
 .presentaciones img {
@@ -170,7 +170,6 @@ main {
 
 .audio {
   text-align: center;
-  margin: 10px;
 }
 
 .estilo-propuestas {
@@ -199,6 +198,7 @@ main {
 
 .estilo-propuestas__fotos:hover {
   transform: scale(1.15);
+  opacity: 50%;
 }
 
 .fotitos {

@@ -49,10 +49,10 @@
             &__enlaces{
                 display: flex;
                 margin: 10px;
-                transition: all 1s;
+                transition: all .5s;
             }
                     &__enlaces:hover{
-                    transform: scale(1.15);
+                    transform: scale(1.05);
 
                     }
                 }
