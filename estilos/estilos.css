@@ -182,6 +182,7 @@ main {
   height: 25%;
   position: relative;
   transition: all .3s;
+  justify-content: center;
 }
 
 .tarjetitas img {

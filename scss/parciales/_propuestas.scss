@@ -6,6 +6,9 @@
    @include sizes (25%, 25%); 
    position: relative;
    transition: all .3s;
+   justify-content: center;
+
+   
   
         img{
             @include sizes (300px, 300px);
