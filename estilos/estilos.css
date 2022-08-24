@@ -172,39 +172,56 @@ main {
   text-align: center;
 }
 
-.estilo-propuestas {
-  display: grid;
-  padding: 1rem;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  justify-items: center;
-  overflow: hidden;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  width: 100%;
+.nuevaspropuestas {
+  flex-direction: row;
+  min-height: 60vh;
 }
 
-.estilo-propuestas__fotos {
-  width: 350px;
-  height: 350px;
-  gap: 5px;
-  margin: 5px;
+.tarjetitas {
+  width: 25%;
+  height: 25%;
+  position: relative;
+  transition: all .3s;
+}
+
+.tarjetitas img {
+  width: 300px;
+  height: 300px;
   border-radius: 1rem;
-  overflow: hidden;
-  border: 1px solid white;
-  transition: all 1s;
+  border: solid 2px white;
+  margin: 1rem;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
 }
 
-.estilo-propuestas__fotos:hover {
-  transform: scale(1.15);
-  opacity: 50%;
+.tarjetitas div {
+  position: absolute;
+  z-index: 2;
+  padding: 15px 15px 0px;
+  width: 300px;
+  margin: 0 15px;
+  opacity: 0;
 }
 
-.fotitos {
-  width: 100%;
-  height: 375px;
-  margin: 0 auto;
+.tarjetitas div h3 {
+  text-align: center;
+}
+
+.tarjetitas div p {
+  text-align: center;
+}
+
+.tarjetitas:hover {
+  transform: scale(1.05);
+}
+
+.tarjetitas:hover div {
+  opacity: 1;
+}
+
+.tarjetitas:hover img {
+  opacity: 25%;
 }
 
 @media screen and (max-width: 1023px) {
