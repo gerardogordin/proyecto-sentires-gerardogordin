@@ -9,7 +9,7 @@
     &__foto{
         img{
         @include sizes (450px, 450px);
-        border-radius: $imagenCircular;
+        border-radius: $mitades;
         overflow: hidden;
         border: 1px solid white;
         object-fit: cover;
@@ -31,9 +31,10 @@
     }
     &__texto{
         text-align: justify;
-        margin: 1px 2px;
+        margin: 20px 2px;
         padding: 10px;
         color: $colorParrafos;
+     
         
     }
 }

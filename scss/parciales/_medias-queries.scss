@@ -108,25 +108,20 @@
             }
 
 
-
-.nuevaspropuestas{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    min-height: 50vh;
+ .nuevaspropuestas{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: repeat(4, 300px);
+     min-height: 50vh;
                               
+     }
+ .tarjetitas{
+    @include sizes (100%, 90%);
+
+    img{
+       
     }
-.tarjetitas{
-    @include sizes (90%, 90%);
-    margin:0 auto;
-        img{
-            justify-self: center;
-                   }
-            
-        div{
-                       
-                    }
-            }
+ }
 
 .carousel{
     max-width: 60% !important;
