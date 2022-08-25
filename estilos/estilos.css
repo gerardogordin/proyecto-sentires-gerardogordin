@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
   background-image: linear-gradient(to bottom, #a774d6, #e8afe3, #b79dd0);
 }
 
@@ -173,40 +173,41 @@ main {
 }
 
 .nuevaspropuestas {
-  flex-direction: row;
-  min-height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  min-height: 50vh;
+  margin-top: 1rem;
+  margin: 0 auto;
 }
 
 .tarjetitas {
-  width: 25%;
-  height: 25%;
+  justify-content: center;
   position: relative;
   transition: all .3s;
-  justify-content: center;
 }
 
 .tarjetitas img {
-  width: 300px;
-  height: 300px;
+  width: 90%;
+  height: 80%;
   border-radius: 1rem;
   border: solid 2px white;
   margin: 1rem;
-  justify-content: center;
   position: absolute;
   z-index: 1;
+  align-items: center;
 }
 
 .tarjetitas div {
   position: absolute;
   z-index: 2;
   padding: 15px 15px 0px;
-  width: 300px;
-  margin: 0 15px;
   opacity: 0;
 }
 
-.tarjetitas div h3 {
+.tarjetitas div h4 {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .tarjetitas div p {
@@ -222,7 +223,7 @@ main {
 }
 
 .tarjetitas:hover img {
-  opacity: 25%;
+  opacity: 15%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -244,14 +245,17 @@ main {
     justify-content: center;
     align-items: center;
   }
-  .estilo-propuestas {
-    width: auto;
+  .nuevaspropuestas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    min-height: 50vh;
   }
-  .formulario {
-    max-width: 70%;
-    margin: 0 auto;
+  .tarjetitas {
+    margin: 5px 2px 5px 2px;
+  }
+  .tarjetitas img {
+    justify-self: center;
   }
   .carousel {
     max-width: 60% !important;
@@ -301,17 +305,19 @@ main {
     max-width: 90%;
     margin: 0 auto;
   }
-  .estilo-propuestas {
-    width: auto;
+  .nuevaspropuestas {
     display: grid;
-    border: none;
-    grid-template-columns: 100%;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    min-height: 50vh;
   }
-  .estilo-propuestas__fotos {
+  .tarjetitas {
     width: 90%;
+    height: 90%;
     margin: 0 auto;
+  }
+  .tarjetitas img {
+    justify-self: center;
   }
   .carousel {
     max-width: 60% !important;
@@ -326,29 +332,12 @@ main {
 }
 
 @media (min-width: 1024px) and (max-width: 1180px) {
-  .estilo-propuestas {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: auto;
-  }
   .estilo-index__texto {
     padding-top: 20px;
   }
   .carousel {
     max-width: 60% !important;
     max-height: 60% !important;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 800px) {
-  .estilo-propuestas {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: auto;
-  }
-  .estilo-propuestas__fotos {
-    width: 80%;
     margin: 0 auto;
   }
 }

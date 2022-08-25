@@ -19,16 +19,30 @@
     justify-content: center;
     align-items: center;
         }
-
-.estilo-propuestas{
-    width:auto;
+.nuevaspropuestas{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-            }
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    min-height: 50vh;
+       
+
+
+   
+}
+.tarjetitas{
+    margin: 5px 2px 5px 2px;
+        img{
+            justify-self: center;
+        }
+
+    div{
+           
+        }
+}
+
 
 .formulario{
-    max-width: 70%;
-    margin: 0 auto; 
+
     }
 
 .carousel{
@@ -95,20 +109,24 @@
 
 
 
-.estilo-propuestas{
-    width: auto;
+.nuevaspropuestas{
     display: grid;
-    border: none;
-    grid-template-columns: 100%;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-
-
-        &__fotos{
-            width: 90% ;
-            margin: 0 auto;
-                }
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    min-height: 50vh;
+                              
     }
+.tarjetitas{
+    @include sizes (90%, 90%);
+    margin:0 auto;
+        img{
+            justify-self: center;
+                   }
+            
+        div{
+                       
+                    }
+            }
 
 .carousel{
     max-width: 60% !important;
@@ -122,12 +140,8 @@
 }
 
 @media  (min-width:1024px) and (max-width:1180px){
- .estilo-propuestas{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: auto;
-     }   
-     .estilo-index__texto{
+
+.estilo-index__texto{
         padding-top: 20px;
      }
 
@@ -139,15 +153,5 @@
     }
 }
 
-@media (min-width:600px) and (max-width: 800px) {
-    .estilo-propuestas{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: auto;
-        
-                &__fotos{
-                    width: 80% ;
-                    margin: 0 auto;
-                        }
-            }
-}
+
+@media (min-width:600px) and (max-width: 800px) {}
