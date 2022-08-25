@@ -24,20 +24,14 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     min-height: 50vh;
-       
+    margin: 0 auto;
 
 
    
 }
 .tarjetitas{
     margin: 5px 2px 5px 2px;
-        img{
-            justify-self: center;
-        }
-
-    div{
-           
-        }
+       
 }
 
 
@@ -118,7 +112,8 @@
  .tarjetitas{
     @include sizes (100%, 90%);
 
-    img{
+    div{
+        
        
     }
  }

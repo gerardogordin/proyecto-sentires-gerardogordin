@@ -206,7 +206,7 @@ main {
 
 .tarjetitas div h4 {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .tarjetitas div p {
@@ -249,12 +249,10 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     min-height: 50vh;
+    margin: 0 auto;
   }
   .tarjetitas {
     margin: 5px 2px 5px 2px;
-  }
-  .tarjetitas img {
-    justify-self: center;
   }
   .carousel {
     max-width: 60% !important;
