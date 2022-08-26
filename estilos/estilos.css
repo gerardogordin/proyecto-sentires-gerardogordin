@@ -311,11 +311,12 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 300px);
-    min-height: 50vh;
+    min-height: 60vh;
   }
   .tarjetitas {
     width: 100%;
     height: 90%;
+    overflow: hidden;
   }
   .carousel {
     max-width: 60% !important;

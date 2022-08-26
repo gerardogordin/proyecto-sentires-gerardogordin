@@ -109,12 +109,12 @@
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: repeat(4, 300px);
-     min-height: 50vh;
+     min-height: 60vh;
                               
      }
  .tarjetitas{
     @include sizes (100%, 90%);
-
+    overflow: hidden;
     div{
         
        
