@@ -31,6 +31,9 @@
 }
 .tarjetitas{
     margin: 5px 2px 5px 2px;
+        img{
+            @include sizes (300px, 300px)
+        }
        
 }
 
