@@ -18,11 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 60vh;
         }
 .nuevaspropuestas{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(2, 300px);
     min-height: 50vh;
     margin: 0 auto;
 
@@ -32,13 +33,13 @@
 .tarjetitas{
     margin: 5px 2px 5px 2px;
         img{
-            @include sizes (300px, 300px)
+            @include sizes (90%, 90%)
         }
-       
-}
-
-
-.formulario{
+       div{
+        margin: .5rem;
+        text-align: center;
+        padding: 2rem;
+       }
 
     }
 
@@ -108,18 +109,27 @@
  .nuevaspropuestas{
      display: grid;
      grid-template-columns: 1fr;
-     grid-template-rows: repeat(4, 300px);
-     min-height: 60vh;
-                              
-     }
- .tarjetitas{
-    @include sizes (100%, 90%);
-    overflow: hidden;
-    div{
-        
-       
-    }
+     grid-template-rows: repeat(4, 350px);
+     min-height: auto;
  }
+
+.tarjetitas{
+    justify-content: center;
+    align-content: center;
+
+        img{
+            justify-content: center;
+            align-content: center; 
+        }
+
+        
+     
+        div{
+            justify-content: center;
+            align-content: center; 
+            
+        }
+    }
 
 .carousel{
     max-width: 60% !important;

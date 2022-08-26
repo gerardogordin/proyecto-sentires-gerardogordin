@@ -244,11 +244,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 60vh;
   }
   .nuevaspropuestas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(2, 300px);
     min-height: 50vh;
     margin: 0 auto;
   }
@@ -256,8 +257,13 @@ main {
     margin: 5px 2px 5px 2px;
   }
   .tarjetitas img {
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 90%;
+  }
+  .tarjetitas div {
+    margin: .5rem;
+    text-align: center;
+    padding: 2rem;
   }
   .carousel {
     max-width: 60% !important;
@@ -310,13 +316,20 @@ main {
   .nuevaspropuestas {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 300px);
-    min-height: 60vh;
+    grid-template-rows: repeat(4, 350px);
+    min-height: auto;
   }
   .tarjetitas {
-    width: 100%;
-    height: 90%;
-    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+  }
+  .tarjetitas img {
+    justify-content: center;
+    align-content: center;
+  }
+  .tarjetitas div {
+    justify-content: center;
+    align-content: center;
   }
   .carousel {
     max-width: 60% !important;
