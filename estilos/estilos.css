@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to bottom, #a774d6, #e8afe3, #b79dd0);
+  background-image: linear-gradient(to bottom, #fa736a, #14a6a5);
 }
 
 a {
@@ -115,20 +115,6 @@ main {
   padding: 1rem;
 }
 
-.quienessomos__foto img {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 1px solid white;
-  object-fit: cover;
-  transition: all 1s;
-}
-
-.quienessomos__foto img:hover {
-  content: url(../imagenes/roxaycynenlaplaya.jpg);
-}
-
 .quienessomos__titulos {
   text-transform: uppercase;
 }
@@ -176,7 +162,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  min-height: 60vh;
+  min-height: 65vh;
   margin: 1rem;
 }
 
@@ -223,6 +209,10 @@ main {
 
 .tarjetitas:hover img {
   opacity: 15%;
+}
+
+.trabajos {
+  min-height: 500px;
 }
 
 @media screen and (max-width: 1023px) {

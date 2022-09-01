@@ -3,29 +3,7 @@
 .quienessomos{
     text-align: center;
     padding: 1rem;
-    
-    
-    
-    &__foto{
-        img{
-        @include sizes (450px, 450px);
-        border-radius: $mitades;
-        overflow: hidden;
-        border: 1px solid white;
-        object-fit: cover;
-        transition: all 1s;
-       
-        }
-        
-        }
-    
-          
-    &__foto{
-        img:hover{
-        content:url(../imagenes/roxaycynenlaplaya.jpg);    
-        }
-                   
-    }
+      
     &__titulos{
         text-transform: uppercase;
     }
