@@ -158,6 +158,10 @@ main {
   text-align: center;
 }
 
+.exp {
+  min-height: 65vh;
+}
+
 .nuevaspropuestas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -260,6 +264,7 @@ main {
   }
 }
 
+
 @media screen and (max-width: 599px) {
   .propiedades-header {
     height: 180px;
@@ -319,6 +324,9 @@ main {
     justify-content: center;
     align-content: center;
   }
+  .exp {
+    min-height: 70vh;
+  }
   .carousel {
     max-width: 60% !important;
     max-height: 90% !important;
@@ -340,4 +348,11 @@ main {
     max-height: 60% !important;
     margin: 0 auto;
   }
+}
+/* .foto_congreso{
+max-height: 310px ;
+max-width: 0 auto ;
+} */
+.card{
+  background-color:rgb(182, 200, 204);
 }
